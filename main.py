@@ -196,7 +196,7 @@ def normalize_text(s: str) -> str:
     return re.sub(r'\s+', ' ', s).strip()
 
 
-# --- 1) Изменяем normalize_text, чтобы он не вырезал точку (.) из размеров:
+#proverka
 
 def normalize_for_parsing(text: str) -> str:
     """
