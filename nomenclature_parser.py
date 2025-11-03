@@ -61,7 +61,7 @@ def load_nomenclature(file_path: str) -> list[dict]:
     try:
         # Используем 'utf-8-sig' для правильной обработки BOM (byte order mark)
         # Это частая проблема, когда '\ufeffКод' появляется вместо 'Код'
-        with open(file_PATH, 'r', encoding='utf-8-sig') as f:
+        with open(file_path, 'r', encoding='utf-8-sig') as f:
             reader = csv.reader(f, delimiter='\t')
 
             try:
