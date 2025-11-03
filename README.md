@@ -1,2 +1,3 @@
 # Nomenclature-Search
-Program for searching asked positions in nomenclature
+Ветка _main_ это старый файл, код весь написан в одном файле(_main.py_).
+Ветка _refractor-rarser_ содержит несколько файлов, которые изначально были одним(_main.py_). 
