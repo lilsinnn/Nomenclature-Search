@@ -54,7 +54,7 @@ regex = config["REGEX_PATH"]
 parameters = config["PARAMETERS_PATH"]
 synonyms_data = config["SYNONYMS_PATH"]
 
-# Уровень логирования (INFO или DEBUG для отладки)
+# Уровень логирования
 # для детальной отладки парсинга лучше поставить DEBUG
 log_level = logging.DEBUG
 
